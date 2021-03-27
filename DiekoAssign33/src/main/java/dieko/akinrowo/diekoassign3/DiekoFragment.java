@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment;
 public class DiekoFragment extends Fragment {
 
     private Button b;
-    private int startx = 10, starty = 10, endx=300, endy=300;
+    private Canvas canvas;
 
 
     @Override
@@ -32,19 +32,10 @@ public class DiekoFragment extends Fragment {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                clearCanvas(v);
+
             }
         });
 
         return v;
-    }
-
-    public void clearCanvas(View v){
-        Canvas canvas =
-        .drawColor(Color.TRANSPARENT);
-        startx = 0;
-        starty = 0;
-        endx = 0;
-        endy = 0;
     }
 }
