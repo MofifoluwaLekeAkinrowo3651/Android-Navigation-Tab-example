@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This is a simple XML definition for a Animation. Over
+    the course of 5 seconds, spin 360
+-->
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--set init pos-->
+    <translate
+        android:duration="1"
+        android:toXDelta="-400"
+        android:toYDelta="300"/>
+
+    <!--move left to right in front of earth-->
+    <translate
+        android:duration="5000"
+        android:toXDelta="1000"
+        android:toYDelta="0"/>
+
+    <!--move right to left behind earth-->
+    <translate
+        android:startOffset="4900"
+        android:duration="5000"
+        android:toXDelta="-1300"
+        android:toYDelta="300"/>
+
+    <!--gets larger as come towards camera-->
+    <scale
+        android:startOffset="100"
+        android:duration="2500"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:toXScale="2.0"
+        android:toYScale="2.0" />
+
+    <!--gets smaller going off into distance-->
+    <scale
+        android:startOffset="2600"
+        android:duration="2500"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:toXScale=".25"
+        android:toYScale=".25" />
+
+    <!--becomes less visible as going behind earth-->
+    <alpha
+        android:startOffset="2600"
+        android:fromAlpha="1.0"
+        android:toAlpha="0.1"
+        android:duration="2500"/>
+
+    <!--becomes more visible as coming in front of earth-->
+    <!--<alpha-->
+        <!--android:startOffset="5100"-->
+        <!--android:fromAlpha="0.2"-->
+        <!--android:toAlpha="1.0"-->
+        <!--android:duration="2500"/>-->
+
+    <!--<translate-->
+        <!--android:duration="2"-->
+        <!--android:toXDelta="180"-->
+        <!--android:toYDelta="270"/>-->
+
+    <!--<rotate-->
+        <!--android:duration="30000"-->
+        <!--android:pivotX="-50%"-->
+        <!--android:pivotY="50%"-->
+        <!--android:toDegrees="-360" />-->
+
+</set>
