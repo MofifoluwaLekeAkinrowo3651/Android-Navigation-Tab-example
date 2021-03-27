@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DiekoAssign3</string>
+    <string name="app_name">DIEKO AKINROWO - N01343651</string>
     <string name="page3">P3</string>
     <string name="page2">P2</string>
     <string name="home">Home</string>
@@ -16,6 +16,7 @@
     <string name="name">Dieko Akinrowo</string>
     <string name="lastname">Akinrowo</string>
     <string name="firstname">Dieko</string>
+    <string name="NAME_ID">Dieko Akinrowo - N01343651</string>
 
 
     <string-array name="thickness">
