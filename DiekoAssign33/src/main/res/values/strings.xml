@@ -13,6 +13,9 @@
     <string name="open_camera">Open Camera</string>
     <string name="dieko_akinrowo_n01343651">DIEKO AKINROWO - N01343651</string>
     <string name="clear">Clear</string>
+    <string name="name">Dieko Akinrowo</string>
+    <string name="lastname">Akinrowo</string>
+    <string name="firstname">Dieko</string>
 
 
     <string-array name="thickness">

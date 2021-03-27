@@ -10,8 +10,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.animation.RotateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class n01343651Fragment extends Fragment {
@@ -43,6 +45,11 @@ public class n01343651Fragment extends Fragment {
 
         stop = (Button) v.findViewById(R.id.stop_btn);
         stop.setOnClickListener(v1 -> stopAnimation());
+
+//        TextView text = v.findViewById(R.id.r_txt);
+//        text.setText(R.string.name);
+//        RotateAnimation rotate= (RotateAnimation) AnimationUtils.loadAnimation(getContext(),R.anim.rotate);
+//        text.setAnimation(rotate);
 
         return v;
     }
