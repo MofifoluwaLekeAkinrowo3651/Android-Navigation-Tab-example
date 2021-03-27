@@ -11,4 +11,17 @@
     <string name="start_anim_txt">Starting...</string>
     <string name="stop_anim_txt">Stopping...</string>
     <string name="open_camera">Open Camera</string>
+    <string name="dieko_akinrowo_n01343651">DIEKO AKINROWO - N01343651</string>
+    <string name="clear">Clear</string>
+
+
+    <string-array name="thickness">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>100</item>
+    </string-array>
 </resources>
