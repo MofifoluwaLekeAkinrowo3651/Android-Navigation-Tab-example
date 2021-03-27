@@ -1,4 +1,5 @@
 package dieko.akinrowo.diekoassign3;
+//Dieko Akinrowo - N01343651
 
 import android.graphics.Canvas;
 import android.graphics.Color;

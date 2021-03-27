@@ -1,4 +1,5 @@
 package dieko.akinrowo.diekoassign3;
+//Dieko Akinrowo - N01343651
 
 import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
