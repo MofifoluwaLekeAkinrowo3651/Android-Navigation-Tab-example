@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    This is a simple XML definition for a Animation. Over
-    the course of 5 seconds, spin 360
--->
+<!--Dieko Akinrowo - N01343651-->
 <set
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!--set init pos-->
+    <!--set initial -->
     <translate
         android:duration="1"
         android:toXDelta="-400"
@@ -53,23 +50,4 @@
         android:fromAlpha="1.0"
         android:toAlpha="0.1"
         android:duration="2500"/>
-
-    <!--becomes more visible as coming in front of earth-->
-    <!--<alpha-->
-        <!--android:startOffset="5100"-->
-        <!--android:fromAlpha="0.2"-->
-        <!--android:toAlpha="1.0"-->
-        <!--android:duration="2500"/>-->
-
-    <!--<translate-->
-        <!--android:duration="2"-->
-        <!--android:toXDelta="180"-->
-        <!--android:toYDelta="270"/>-->
-
-    <!--<rotate-->
-        <!--android:duration="30000"-->
-        <!--android:pivotX="-50%"-->
-        <!--android:pivotY="50%"-->
-        <!--android:toDegrees="-360" />-->
-
 </set>
