@@ -1,4 +1,4 @@
-# DiekoAssign3
+# Dieko Practice 3
 
 Creating an android application with 3 bottom navigation tabs.
 
